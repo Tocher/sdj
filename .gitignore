@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+node_modules
+video.mp4
+img
+studio
+blocks
+*.rar
+*.zip
