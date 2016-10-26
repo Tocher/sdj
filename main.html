@@ -123,10 +123,18 @@
             cursor: pointer;
             display: block;
             opacity: .5;
+            color: #fff;
+            position: relative;
         }
         .menu a.active:hover {
             margin: -40px 3% 0;
             opacity: 1;
+        }
+        .menu__text {
+            margin-top: 20px;
+            position: absolute;
+            text-align: center;
+            width: 100%;
         }
     </style>
 </head>
@@ -139,6 +147,7 @@
     <div class="menu">
         <a class="active" href="http://sdjstudio.com/sdjkids">
             <img src="img/main_kids.jpg">
+            <div class="menu__text">SDJKids - школа диджеев<br>музыкальный проект</div>
         </a>
         <a href="#">
             <img src="img/main_studio.jpg">
