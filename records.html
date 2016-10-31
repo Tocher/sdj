@@ -256,9 +256,18 @@
             width: 100%;
         }
 
+        .footer .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            max-width: 100%;
+            min-width:1240px;
+        }
+
         .footer__left {
             color: #696969;
-            font-size: 14px;
+            font-size: 12px;
             text-transform: uppercase;
         }
 
@@ -267,20 +276,25 @@
         }
 
         @media (min-width: 1600px) {
+            .footer__left {
+                font-size: 14px;
+            }
             .footer__center {
                 padding: 0 40px;
                 min-width: 1250px;
             }
+            .footer__right {
+                font-size: 12px;
+            }
         }
 
         .footer__center a {
-            margin: 0 20px;
-            font-size: 14px;
+            margin: 0 18px;
+            font-size: 12px;
             transition: all .5s;
             position: relative;
             color: #fff;
         }
-
         .footer__center a:hover {
             color: #696969;
             border-color: #696969;
@@ -339,7 +353,7 @@
             line-height: 14px;
             text-transform: uppercase;
             font-family: Lato-Light;
-            font-size: 12px;
+            font-size: 11px;
             transition: all .5s;
         }
 
@@ -448,7 +462,7 @@
     </div>
 </section>
 <div class="footer">
-    <div class="container" style="display: flex;justify-content: center;align-items: center;height: 80px;max-width: 100%;min-width:1300px;">
+    <div class="container">
         <div class="footer__left">&copy; SDJSTUDIO, 2013&mdash;2016</div>
         <div class="footer__center">
             <a href="https://www.facebook.com/SDJStudio" target="_blank" style="margin-left: 10px !important;" class="social social_fb">
