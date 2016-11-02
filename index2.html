@@ -119,34 +119,54 @@
 </div>
 <div class="events" id="events">
     <div class="events__title">Фото</div>
-    <div class="events__items">
-        <a href="img/gallery/image4_full.jpg" data-toggle="lightbox" data-title="Аргумент" data-gallery="example-gallery" class="events__item events__img_item eitem4">
-            Аргумент
-        </a>
-        <a href="img/gallery/image3_full.jpg" data-toggle="lightbox" data-title="Аквапарк" data-gallery="example-gallery" class="events__item events__img_item eitem3">
-            Аквапарк
-        </a>
-        <a href="img/gallery/image2_full.jpg" data-toggle="lightbox" data-title="Артек" data-gallery="example-gallery" class="events__item events__img_item eitem2">
-            Артек
-        </a>
-        <a href="img/gallery/image1_full.jpg" data-toggle="lightbox" data-title="Зубренок" data-gallery="example-gallery" class="events__item events__img_item eitem1">
-            Зубренок
-        </a>
+    <div class="events__items-container">
+        <div class="events__arrow events__arrow-left"></div>
+        <div class="events__arrow events__arrow-right"></div>
+        <div class="events__items-layout">
+            <div class="events__items">
+                <a href="img/gallery/image4_full.jpg" data-toggle="lightbox" data-title="Аргумент" data-gallery="example-gallery" class="events__item events__img_item eitem4">
+                    <div>Аргумент</div>
+                    <div class="events__item-date">26/10/16</div>
+                </a>
+                <a href="img/gallery/image3_full.jpg" data-toggle="lightbox" data-title="Аквапарк" data-gallery="example-gallery" class="events__item events__img_item eitem3">
+                    Аквапарк
+                    <div class="events__item-date">28/08/16</div>
+                </a>
+                <a href="img/gallery/image1_full.jpg" data-toggle="lightbox" data-title="Зубренок" data-gallery="example-gallery" class="events__item events__img_item eitem1">
+                    Зубренок
+                    <div class="events__item-date">28/07/16</div>
+                </a>
+                <a href="img/gallery/image1_full.jpg" data-toggle="lightbox" data-title="Зубренок" data-gallery="example-gallery" class="events__item events__img_item eitem1">
+                    Зубренок
+                    <div class="events__item-date">24/07/16</div>
+                </a>
+                <a href="img/gallery/image2_full.jpg" data-toggle="lightbox" data-title="Артек" data-gallery="example-gallery" class="events__item events__img_item eitem2">
+                    Артек
+                    <div class="events__item-date">23/06/13</div>
+                </a>
+            </div>
+        </div>
     </div>
     <div class="events__title">TV Видео</div>
-    <div class="events__items">
-        <a href="https://www.youtube.com/watch?v=rNy-DxcPbcM" data-toggle="lightbox" class="events__item events__video_item evitem1">
-            <div>SDJKIDS Дебют FOMIN & KIRILLOV</div>
-        </a>
-        <a href="https://www.youtube.com/watch?v=Tet6lCqJAkY" data-toggle="lightbox" class="events__item events__video_item evitem2">
-            <div>SDJKIDS / Vadik Raketa с друзьями в SDJStudio</div>
-        </a>
-        <a href="https://www.youtube.com/watch?v=fyFQHJ3HDQM" data-toggle="lightbox" class="events__item events__video_item evitem3">
-            <div>SDJSTUDIO/SDJKIDS - Kirillov & Fomin Promo.</div>
-        </a>
-        <a href="https://www.youtube.com/watch?v=6Le5fUXyI6c" data-toggle="lightbox" class="events__item events__video_item evitem4">
-            <div>SDJSTUDIO TV / ZUBRONOK / VIVA BRASLAV / SDJKIDS 2016</div>
-        </a>
+    <div class="events__items-container">
+        <div class="events__arrow events__arrow-left"></div>
+        <div class="events__arrow events__arrow-right"></div>
+        <div class="events__items-layout">
+            <div class="events__items">
+                <a href="https://www.youtube.com/watch?v=rNy-DxcPbcM" data-toggle="lightbox" class="events__item events__video_item evitem1">
+                    <div>SDJKIDS Дебют FOMIN & KIRILLOV</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=Tet6lCqJAkY" data-toggle="lightbox" class="events__item events__video_item evitem2">
+                    <div>SDJKIDS / Vadik Raketa с друзьями в SDJStudio</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=fyFQHJ3HDQM" data-toggle="lightbox" class="events__item events__video_item evitem3">
+                    <div>SDJSTUDIO/SDJKIDS - Kirillov & Fomin Promo.</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=6Le5fUXyI6c" data-toggle="lightbox" class="events__item events__video_item evitem4">
+                    <div>SDJSTUDIO TV / ZUBRONOK / VIVA BRASLAV / SDJKIDS 2016</div>
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 <div class="residents" id="residents">
@@ -361,14 +381,158 @@ void 0!==c?null===c?void r.removeAttr(a,b):e&&"set"in e&&void 0!==(d=e.set(a,c,b
 <script src="bower_components/tether/dist/js/tether.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.js"></script>
-<script>$('.header a[href^="#"]').on("click",function(e){e.preventDefault();var s=this.hash,i=$(s);$("html, body").stop().animate({scrollTop:i.offset().top},900,"swing")}),$(".subscribe").click(function(e){e.preventDefault();var s=$(".subscribe__box");$(".subscribe__modal").fadeIn(),s.css("margin-top",-s.height()/2+"px")}),$(".subscribe__modal").click(function(e){e.target===this&&$(".subscribe__modal").fadeOut()}),$(".subscribe__send").click(function(){$(".subscribe__email").val().length>0&&($(".subscribe__modal").fadeOut(),$.ajax({method:"POST",url:"http://sdjstudio.com/subscribe.php",data:{email:$(".subscribe__email").val()}}),$(".subscribe__email").val(""))}),$(".partners__subtitle").click(function(e){e.preventDefault();var s=$(".subscribe__box2");$(".subscribe__modal2").fadeIn(),s.css("margin-top",-s.height()/2+"px")}),$(".subscribe__modal2").click(function(e){e.target===this&&$(".subscribe__modal2").fadeOut()});
-function moveRight(){curMainTick<main_slides.length-1?curMainTick++:curMainTick=0,clearTimeout(sliderTimer),position=-window.innerWidth*curMainTick+"px",main_slides_container.css("transform","translateX("+position+")"),sliderTimer=setTimeout(moveRight,5e3)}document.addEventListener("scroll",function(){var i=$(".main__text"),n=$(".main__kids"),e=$(".section-main"),r=window.pageYOffset;window.pageYOffset>=e.height()/5||(i.css("margin-top",r/2.5+"px"),n.css("margin-top",r/4+"px"))});var main_slides=$(".main__slider"),main_slides_container=$(".main__slider-container"),flaggg=!0,mainArrowLeft=$(".main__arrow-left"),mainArrowRight=$(".main__arrow-right");main_slides_container.css("width",100*main_slides.length+"%");var curMainTick=0,position,sliderTimer;mainArrowRight.click(moveRight),mainArrowLeft.click(function(){curMainTick>0?curMainTick--:curMainTick=main_slides.length-1,clearTimeout(sliderTimer),position=-window.innerWidth*curMainTick+"px",main_slides_container.css("transform","translateX("+position+")"),sliderTimer=setTimeout(moveRight,5e3)}),sliderTimer=setTimeout(moveRight,5e3);
+<script>
+    $('.header a[href^="#"]').on("click", function(e) {
+        e.preventDefault();
+        var s = this.hash,
+                i = $(s);
+        $("html, body").stop().animate({
+            scrollTop: i.offset().top
+        }, 900, "swing")
+    }), $(".subscribe").click(function(e) {
+        e.preventDefault();
+        var s = $(".subscribe__box");
+        $(".subscribe__modal").fadeIn(), s.css("margin-top", -s.height() / 2 + "px")
+    }), $(".subscribe__modal").click(function(e) {
+        e.target === this && $(".subscribe__modal").fadeOut()
+    }), $(".subscribe__send").click(function() {
+        $(".subscribe__email").val().length > 0 && ($(".subscribe__modal").fadeOut(), $.ajax({
+            method: "POST",
+            url: "http://sdjstudio.com/subscribe.php",
+            data: {
+                email: $(".subscribe__email").val()
+            }
+        }), $(".subscribe__email").val(""))
+    }), $(".partners__subtitle").click(function(e) {
+        e.preventDefault();
+        var s = $(".subscribe__box2");
+        $(".subscribe__modal2").fadeIn(), s.css("margin-top", -s.height() / 2 + "px")
+    }), $(".subscribe__modal2").click(function(e) {
+        e.target === this && $(".subscribe__modal2").fadeOut()
+    });
 
-var studioShowed=!1;document.addEventListener("scroll",function(){if(!studioShowed){var t=window.pageYOffset+window.innerHeight,i=$(".studio__icons"),o=$(".studio__icon");t>=i.offset().top&&(studioShowed=!0,o.each(function(t){setTimeout(function(){$(this).addClass("show")}.bind(this),500*t)}),i.addClass("show"))}}),$(".studio__youtube-btn").click(function(t){$(this).fadeOut(),$(this).parent().find(".studio__youtube").fadeIn()});
-var overlay=$(".team__overlay"),guys=$(".team__guy");document.addEventListener("scroll",function(){var a=$(".team__logo"),s=$(".team"),e=s.offset().top,m=window.pageYOffset;m+window.innerHeight>=e&&m<=e+s.height()&&a.css("background-position","center "+(m-e)/10+"px")}),guys.mouseover(function(){guys.addClass("blur"),overlay.addClass("show"),$(this).hasClass("team__man1")&&($(".team__man1").removeClass("blur"),$(".team__man1").addClass("hover")),$(this).hasClass("team__man2")&&($(".team__man2").removeClass("blur"),$(".team__man2").addClass("hover")),$(this).hasClass("team__man3")&&($(".team__man3").removeClass("blur"),$(".team__man3").addClass("hover")),$(this).hasClass("team__man4")&&($(".team__man4").removeClass("blur"),$(".team__man4").addClass("hover"))}),guys.mouseleave(function(){guys.removeClass("hover"),guys.removeClass("blur"),overlay.removeClass("show")});
+    function moveRight() {
+        curMainTick < main_slides.length - 1 ? curMainTick++ : curMainTick = 0, clearTimeout(sliderTimer), position = -window.innerWidth * curMainTick + "px", main_slides_container.css("transform", "translateX(" + position + ")"), sliderTimer = setTimeout(moveRight, 5e3)
+    }
+    document.addEventListener("scroll", function() {
+        var i = $(".main__text"),
+                n = $(".main__kids"),
+                e = $(".section-main"),
+                r = window.pageYOffset;
+        window.pageYOffset >= e.height() / 5 || (i.css("margin-top", r / 2.5 + "px"), n.css("margin-top", r / 4 + "px"))
+    });
+    var main_slides = $(".main__slider"),
+            main_slides_container = $(".main__slider-container"),
+            flaggg = !0,
+            mainArrowLeft = $(".main__arrow-left"),
+            mainArrowRight = $(".main__arrow-right");
+    main_slides_container.css("width", 100 * main_slides.length + "%");
+    var curMainTick = 0,
+            position, sliderTimer;
+    mainArrowRight.click(moveRight), mainArrowLeft.click(function() {
+        curMainTick > 0 ? curMainTick-- : curMainTick = main_slides.length - 1, clearTimeout(sliderTimer), position = -window.innerWidth * curMainTick + "px", main_slides_container.css("transform", "translateX(" + position + ")"), sliderTimer = setTimeout(moveRight, 5e3)
+    }), sliderTimer = setTimeout(moveRight, 5e3);
 
-function fbShare(e,i,r,t,a,n){var s=screen.height/2-n/2,c=screen.width/2-a/2;window.open("http://www.facebook.com/sharer.php?s=100&p[title]="+i+"&p[summary]="+r+"&p[url]="+e+"&p[images][0]="+t,"sharer","top="+s+",left="+c+",toolbar=0,status=0,width="+a+",height="+n)}var partners_slides=$(".partners__slide"),partners_slides_img=$(".partners__slider img"),partners_slides_container=$(".partners__slider"),flagg2=!0,oneTick=partners_slides_img.width()+50,partnersArrowLeft=$(".partners__arrow-left"),partnersArrowRight=$(".partners__arrow-right");partners_slides_container.css("width",oneTick*partners_slides_img.length+"px");var position2,curTick=0;partnersArrowRight.click(function(){var e=$(".partners__slider img").width()+50;curTick<2&&(curTick++,position2=-e*curTick+"px",partners_slides_container.css("transform","translateX("+position2+")"))}),partnersArrowLeft.click(function(){var e=$(".partners__slider img").width()+50;curTick>0&&(curTick--,position2=-e*curTick+"px",partners_slides_container.css("transform","translateX("+position2+")"))});
-var tutorialModal=new Modal({el:document.getElementById("agreement")}),dialog=$(".modal-dialog");$(".tutorial__button").click(function(){tutorialModal.show();var e=(window.innerHeight-dialog.height())/2;dialog.css("margin-top",e+"px");var i=$(".form");i.css("margin-top",($(".modal-tab-2").height()-i.height())/2+"px")}),$(".close").click(function(){tutorialModal.hide()});var accept=!1,modalTabs=$(".modal-tabs");$(".agreement__accept-box").change(function(){accept=!accept,$(".modal-tab-2").css("margin-left",accept?"0":"100%"),$(".modal-tab-1").css("margin-left",accept?"-100%":"0"),$(".modal-title").animate({opacity:0},"slow",function(){$(".modal-title").html(accept?"Заявка на участие в SDJKids":"Публичный договор на обучение в школе диджеев SDJKids"),$(".modal-title").animate({opacity:1},"fast")})}),$(".form-group").change(function(){$(this).isValid()}),$(".agreement__send").click(function(e){e.preventDefault();var i=$(".form");if(i.isValid()){var r={name:i.find("#f-name").val(),birth:i.find("#f-birth").val(),phone:i.find("#f-phone").val(),social:i.find("#f-social").val(),know:i.find("#f-know").val(),about:i.find("#f-about").val(),service1:i.find("#service1").prop("checked")?"Да":"Нет",service2:i.find("#service2").prop("checked")?"Да":"Нет",service3:i.find("#service3").prop("checked")?"Да":"Нет",service4:i.find("#service4").prop("checked")?"Да":"Нет",service5:i.find("#service5").prop("checked")?"Да":"Нет",service6:i.find("#service6").prop("checked")?"Да":"Нет"};$.ajax({method:"POST",url:"send.php",data:r}),tutorialModal.hide()}});
+    var studioShowed = !1;
+    document.addEventListener("scroll", function() {
+        if (!studioShowed) {
+            var t = window.pageYOffset + window.innerHeight,
+                    i = $(".studio__icons"),
+                    o = $(".studio__icon");
+            t >= i.offset().top && (studioShowed = !0, o.each(function(t) {
+                setTimeout(function() {
+                    $(this).addClass("show")
+                }.bind(this), 500 * t)
+            }), i.addClass("show"))
+        }
+    }), $(".studio__youtube-btn").click(function(t) {
+        $(this).fadeOut(), $(this).parent().find(".studio__youtube").fadeIn()
+    });
+    var overlay = $(".team__overlay"),
+            guys = $(".team__guy");
+    document.addEventListener("scroll", function() {
+        var a = $(".team__logo"),
+                s = $(".team"),
+                e = s.offset().top,
+                m = window.pageYOffset;
+        m + window.innerHeight >= e && m <= e + s.height() && a.css("background-position", "center " + (m - e) / 10 + "px")
+    }), guys.mouseover(function() {
+        guys.addClass("blur"), overlay.addClass("show"), $(this).hasClass("team__man1") && ($(".team__man1").removeClass("blur"), $(".team__man1").addClass("hover")), $(this).hasClass("team__man2") && ($(".team__man2").removeClass("blur"), $(".team__man2").addClass("hover")), $(this).hasClass("team__man3") && ($(".team__man3").removeClass("blur"), $(".team__man3").addClass("hover")), $(this).hasClass("team__man4") && ($(".team__man4").removeClass("blur"), $(".team__man4").addClass("hover"))
+    }), guys.mouseleave(function() {
+        guys.removeClass("hover"), guys.removeClass("blur"), overlay.removeClass("show")
+    });
+
+    function fbShare(e, i, r, t, a, n) {
+        var s = screen.height / 2 - n / 2,
+                c = screen.width / 2 - a / 2;
+        window.open("http://www.facebook.com/sharer.php?s=100&p[title]=" + i + "&p[summary]=" + r + "&p[url]=" + e + "&p[images][0]=" + t, "sharer", "top=" + s + ",left=" + c + ",toolbar=0,status=0,width=" + a + ",height=" + n)
+    }
+    var partners_slides = $(".partners__slide"),
+            partners_slides_img = $(".partners__slider img"),
+            partners_slides_container = $(".partners__slider"),
+            flagg2 = !0,
+            oneTick = partners_slides_img.width() + 50,
+            partnersArrowLeft = $(".partners__arrow-left"),
+            partnersArrowRight = $(".partners__arrow-right");
+    partners_slides_container.css("width", oneTick * partners_slides_img.length + "px");
+    var position2, curTick = 0;
+    partnersArrowRight.click(function() {
+        var e = $(".partners__slider img").width() + 50;
+        curTick < 2 && (curTick++, position2 = -e * curTick + "px", partners_slides_container.css("transform", "translateX(" + position2 + ")"))
+    }), partnersArrowLeft.click(function() {
+        var e = $(".partners__slider img").width() + 50;
+        curTick > 0 && (curTick--, position2 = -e * curTick + "px", partners_slides_container.css("transform", "translateX(" + position2 + ")"))
+    });
+    var tutorialModal = new Modal({
+                el: document.getElementById("agreement")
+            }),
+            dialog = $(".modal-dialog");
+    $(".tutorial__button").click(function() {
+        tutorialModal.show();
+        var e = (window.innerHeight - dialog.height()) / 2;
+        dialog.css("margin-top", e + "px");
+        var i = $(".form");
+        i.css("margin-top", ($(".modal-tab-2").height() - i.height()) / 2 + "px")
+    }), $(".close").click(function() {
+        tutorialModal.hide()
+    });
+    var accept = !1,
+            modalTabs = $(".modal-tabs");
+    $(".agreement__accept-box").change(function() {
+        accept = !accept, $(".modal-tab-2").css("margin-left", accept ? "0" : "100%"), $(".modal-tab-1").css("margin-left", accept ? "-100%" : "0"), $(".modal-title").animate({
+            opacity: 0
+        }, "slow", function() {
+            $(".modal-title").html(accept ? "Заявка на участие в SDJKids" : "Публичный договор на обучение в школе диджеев SDJKids"), $(".modal-title").animate({
+                opacity: 1
+            }, "fast")
+        })
+    }), $(".form-group").change(function() {
+        $(this).isValid()
+    }), $(".agreement__send").click(function(e) {
+        e.preventDefault();
+        var i = $(".form");
+        if (i.isValid()) {
+            var r = {
+                name: i.find("#f-name").val(),
+                birth: i.find("#f-birth").val(),
+                phone: i.find("#f-phone").val(),
+                social: i.find("#f-social").val(),
+                know: i.find("#f-know").val(),
+                about: i.find("#f-about").val(),
+                service1: i.find("#service1").prop("checked") ? "Да" : "Нет",
+                service2: i.find("#service2").prop("checked") ? "Да" : "Нет",
+                service3: i.find("#service3").prop("checked") ? "Да" : "Нет",
+                service4: i.find("#service4").prop("checked") ? "Да" : "Нет",
+                service5: i.find("#service5").prop("checked") ? "Да" : "Нет",
+                service6: i.find("#service6").prop("checked") ? "Да" : "Нет"
+            };
+            $.ajax({
+                method: "POST",
+                url: "send.php",
+                data: r
+            }), tutorialModal.hide()
+        }
+    });
 
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
@@ -377,6 +541,42 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     });
 });
 
+var eImgItemsContainer = $('.events__items'),
+    eLayout = $('.events__items-layout').width(),
+    eSlider = $('.events__items-container'),
+    eImgWidth = eLayout / 4;
+
+eImgItemsContainer.each(function() {
+    var eImgItems = $(this).find('.events__item').length;
+    $(this).css('width', eImgWidth * eImgItems + 'px');
+});
+
+
+eSlider.find('.events__arrow-left').on('click', moveThingLeft);
+eSlider.find('.events__arrow-right').on('click', moveThingRight);
+
+function moveThingLeft(e) {
+    var parent = $(this).parent(),
+        cur = parent.data('current') || 0;
+
+    if (cur === 0) return;
+
+    cur--;
+    parent.data('current', cur);
+    parent.find('.events__items').css('transform', 'translateX(' + -cur * eImgWidth + 'px' + ')');
+}
+
+function moveThingRight(e) {
+    var parent = $(this).parent(),
+        cur = parent.data('current') || 0;
+        items = parent.find('.events__item').length;
+
+    if (cur === items - 4) return;
+
+    cur++;
+    parent.data('current', cur);
+    parent.find('.events__items').css('transform', 'translateX(' + -cur * eImgWidth + 'px' + ')');
+}
 </script>
 </body>
 </html>
