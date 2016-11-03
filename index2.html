@@ -72,6 +72,7 @@
     <div class="container">
         <a href="#main"><img class="header__logo" src="img/logo.jpg" alt="школа диджеев | муз. проект"></a>
         <a href="#main" class="header__link">Главная</a>
+        <a href="#photo" class="header__link">Фото</a>
         <a href="#events" class="header__link">TV Видео</a>
         <a href="#residents" class="header__link">Резиденты</a>
         <a href="#studio" class="header__link">Студия</a>
@@ -117,14 +118,14 @@
         </a>
     </div>
 </div>
-<div class="events" id="events">
-    <div class="events__title">Фото</div>
+<div class="events">
+    <div class="events__title" id="photo">Фото</div>
     <div class="events__items-container">
         <div class="events__arrow events__arrow-left"></div>
         <div class="events__arrow events__arrow-right"></div>
         <div class="events__items-layout">
             <div class="events__items">
-                <a href="img/gallery/image4_full.jpg" data-toggle="lightbox" data-title="Аргумент" data-gallery="example-gallery" class="events__item events__img_item eitem4">
+                <a href="gallery1.html" class="events__item events__img_item eitem4">
                     <div>Аргумент</div>
                     <div class="events__item-date">26/10/16</div>
                 </a>
@@ -147,23 +148,23 @@
             </div>
         </div>
     </div>
-    <div class="events__title">TV Видео</div>
+    <div class="events__title" id="events">TV Видео</div>
     <div class="events__items-container">
         <div class="events__arrow events__arrow-left"></div>
         <div class="events__arrow events__arrow-right"></div>
         <div class="events__items-layout">
             <div class="events__items">
-                <a href="https://www.youtube.com/watch?v=rNy-DxcPbcM" data-toggle="lightbox" class="events__item events__video_item evitem1">
-                    <div>SDJKIDS Дебют FOMIN & KIRILLOV</div>
+                <a href="https://www.youtube.com/watch?v=fyFQHJ3HDQM" data-type="youtube" data-toggle="lightbox" class="events__item events__video_item evitem3">
+                    <div>SDJSTUDIO/SDJKIDS - Kirillov & Fomin Promo. Pioneer DJ 2000 Nexus 2</div>
                 </a>
-                <a href="https://www.youtube.com/watch?v=Tet6lCqJAkY" data-toggle="lightbox" class="events__item events__video_item evitem2">
-                    <div>SDJKIDS / Vadik Raketa с друзьями в SDJStudio</div>
-                </a>
-                <a href="https://www.youtube.com/watch?v=fyFQHJ3HDQM" data-toggle="lightbox" class="events__item events__video_item evitem3">
-                    <div>SDJSTUDIO/SDJKIDS - Kirillov & Fomin Promo.</div>
-                </a>
-                <a href="https://www.youtube.com/watch?v=6Le5fUXyI6c" data-toggle="lightbox" class="events__item events__video_item evitem4">
+                <a href="https://www.youtube.com/watch?v=6Le5fUXyI6c" data-type="youtube" data-toggle="lightbox" class="events__item events__video_item evitem4">
                     <div>SDJSTUDIO TV / ZUBRONOK / VIVA BRASLAV / SDJKIDS 2016</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=Tet6lCqJAkY" data-type="youtube" data-toggle="lightbox" class="events__item events__video_item evitem2">
+                    <div>SUPER DJ / Vadik Raketa с друзьями в SDJStudio</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=rNy-DxcPbcM" data-type="youtube" data-toggle="lightbox" class="events__item events__video_item evitem1">
+                    <div>SDJTV/ Дебют FOMIN & KIRILLOV</div>
                 </a>
             </div>
         </div>
@@ -537,7 +538,12 @@ void 0!==c?null===c?void r.removeAttr(a,b):e&&"set"in e&&void 0!==(d=e.set(a,c,b
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox({
-        alwaysShowClose: true
+        alwaysShowClose: true,
+        onContentLoaded: function() {
+            if ($(event.target).data('type') === 'youtube') {
+                $('.ekko-lightbox .modal-dialog').css('max-width', '70vw');
+            }
+        }
     });
 });
 
