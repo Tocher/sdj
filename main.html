@@ -68,17 +68,17 @@
         @font-face
         {
             font-family: Lato-Regular;
-            src: url(Lato-Regular.ttf);
+            src: url(sdjkids/Lato-Regular.ttf);
         }
         @font-face
         {
             font-family: Lato-Light;
-            src: url(Lato-Light.ttf);
+            src: url(sdjkids/Lato-Light.ttf);
         }
         @font-face
         {
             font-family: Lato-Bold;
-            src: url(Lato-Bold.ttf);
+            src: url(sdjkids/Lato-Bold.ttf);
         }
         @font-face
         {
@@ -126,6 +126,9 @@
             color: #fff;
             position: relative;
         }
+        .menu a:hover .menu__text {
+            opacity: 1;
+        }
         .menu a.active:hover {
             margin: -40px 3% 0;
             opacity: 1;
@@ -135,7 +138,10 @@
             position: absolute;
             text-align: center;
             width: 100%;
+            opacity: 0;
+            transition: all 1s ease-out .2s;
         }
+
     </style>
 </head>
 <body>
@@ -145,15 +151,16 @@
         <source src="main.webm" type="video/webm">
     </video>
     <div class="menu">
+        <a class="active" href="#">
+            <img src="img/main_studio.jpg">
+            <div class="menu__text">SDJSTUDIO - Профессиональная студия электронной музыки / диджей школа Авторский проект Юрия Струпинского</div>
+        </a>
         <a class="active" href="http://sdjstudio.com/sdjkids">
             <img src="img/main_kids.jpg">
             <div class="menu__text">SDJKids - школа диджеев<br>музыкальный проект</div>
         </a>
         <a href="#">
-            <img src="img/main_studio.jpg">
-        </a>
-        <a href="#">
-            <img src="img/main_records.jpg">
+            <img src="img/main_music.jpg">
         </a>
     </div>
 </div>
