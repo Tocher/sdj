@@ -603,8 +603,21 @@ a {
 .eitem6 {
     background-image: url('img/gallery/6/1.jpg');
 }
-.eitem7 {
+.eitem5 {
     background-image: url('img/gallery/4/29.jpg');
+}
+
+.eitem7 {
+    background-image: url('img/gallery/7.jpg');
+}
+.eitem8 {
+    background-image: url('img/gallery/8.jpg');
+}
+.eitem9 {
+    background-image: url('img/gallery/9.jpg');
+}
+.eitem10 {
+    background-image: url('img/gallery/10.jpg');
 }
 .evitem1 {
     background-image: url('img/gallery/image_video1.jpg');
