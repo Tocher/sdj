@@ -2,7 +2,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: Lato-Regular, Arial;
+    font-family: Lato-Regular, Verdana, sans-serif;
     background: #000;
     color: #fff;
     -webkit-font-smoothing: antialiased;
@@ -23,22 +23,22 @@ a {
 
 @font-face
 {
-    font-family: Lato-Regular, Arial;
+    font-family: Lato-Regular, Verdana, sans-serif;
     src: url(Lato-Regular.ttf);
 }
 @font-face
 {
-    font-family: Lato-Light, Arial;
+    font-family: Lato-Light, Verdana, sans-serif;
     src: url(Lato-Light.ttf);
 }
 @font-face
 {
-    font-family: Lato-Bold, Arial;
+    font-family: Lato-Bold, Verdana, sans-serif;
     src: url(Lato-Bold.ttf);
 }
 @font-face
 {
-    font-family: BebasNeueCyrillic, Arial;
+    font-family: BebasNeueCyrillic, Verdana, sans-serif;
     src: url(BebasNeueCyrillic.ttf);
 }
 

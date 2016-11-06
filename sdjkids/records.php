@@ -66,7 +66,7 @@
         html, body {
             margin: 0;
             padding: 0;
-            font-family: Lato-Regular;
+            font-family: Lato-Regular, Verdana, sans-serif;
             background: #000;
             color: #fff;
             -webkit-font-smoothing: antialiased;
@@ -87,22 +87,22 @@
 
         @font-face
         {
-            font-family: Lato-Regular;
+            font-family: Lato-Regular, Verdana, sans-serif;
             src: url(Lato-Regular.ttf);
         }
         @font-face
         {
-            font-family: Lato-Light;
+            font-family: Lato-Light, Verdana, sans-serif;
             src: url(Lato-Light.ttf);
         }
         @font-face
         {
-            font-family: Lato-Bold;
+            font-family: Lato-Bold, Verdana, sans-serif;
             src: url(Lato-Bold.ttf);
         }
         @font-face
         {
-            font-family: BebasNeueCyrillic;
+            font-family: BebasNeueCyrillic, Verdana, sans-serif;
             src: url(BebasNeueCyrillic.ttf);
         }
 
@@ -161,7 +161,7 @@
         .header__link {
             margin: 30px 0;
             font-weight: bold;
-            font-family: Lato-Bold;
+            font-family: Lato-Bold, Verdana, sans-serif;
         }
 
         .header__link:hover {
@@ -177,7 +177,7 @@
             position: absolute;
             bottom: 10px;
             line-height: normal;
-            font-family: BebasNeueCyrillic;
+            font-family: BebasNeueCyrillic, Verdana, sans-serif;
             font-size: 14px;
             letter-spacing: 2.5px;
         }
@@ -210,7 +210,7 @@
         .subscribe__box {
             text-align: center;
             font-size: 24px;
-            font-family: Lato-Light;
+            font-family: Lato-Light, Verdana, sans-serif;
             text-transform: uppercase;
             position: absolute;
             width: 40vw;
@@ -352,7 +352,7 @@
             color: #696969;
             line-height: 14px;
             text-transform: uppercase;
-            font-family: Lato-Light;
+            font-family: Lato-Light, Verdana, sans-serif;
             font-size: 11px;
             transition: all .5s;
         }
@@ -402,10 +402,10 @@
             text-align: center;
             font-size: 22px;
             margin-bottom: 20px;
-            font-family: Lato-Bold;
+            font-family: Lato-Bold, Verdana, sans-serif;
         }
         .program__text {
-            font-family: Lato-Light;
+            font-family: Lato-Light, Verdana, sans-serif;
             font-size: 18px;
             text-align: center;
         }
@@ -416,7 +416,7 @@
             background-size: cover;
             align-items: center;
             justify-content: center;
-            font-family: Lato-Regular;
+            font-family: Lato-Regular, Verdana, sans-serif;
             padding-top: 80px;
         }
         .program__img {

@@ -46,7 +46,7 @@
         html, body {
             margin: 0;
             padding: 0;
-            font-family: Lato-Regular;
+            font-family: Lato-Regular, Verdana, sans-serif;
             background: #000;
             color: #fff;
             -webkit-font-smoothing: antialiased;
@@ -67,22 +67,22 @@
 
         @font-face
         {
-            font-family: Lato-Regular;
+            font-family: Lato-Regular, Verdana, sans-serif;
             src: url(Lato-Regular.ttf);
         }
         @font-face
         {
-            font-family: Lato-Light;
+            font-family: Lato-Light, Verdana, sans-serif;
             src: url(Lato-Light.ttf);
         }
         @font-face
         {
-            font-family: Lato-Bold;
+            font-family: Lato-Bold, Verdana, sans-serif;
             src: url(Lato-Bold.ttf);
         }
         @font-face
         {
-            font-family: BebasNeueCyrillic;
+            font-family: BebasNeueCyrillic, Verdana, sans-serif;
             src: url(BebasNeueCyrillic.ttf);
         }
 
@@ -137,7 +137,7 @@
         .header__link {
             margin: 30px 0;
             font-weight: bold;
-            font-family: Lato-Bold;
+            font-family: Lato-Bold, Verdana, sans-serif;
         }
 
         .header__link:hover {
@@ -153,7 +153,7 @@
             position: absolute;
             bottom: 10px;
             line-height: normal;
-            font-family: BebasNeueCyrillic;
+            font-family: BebasNeueCyrillic, Verdana, sans-serif;
             font-size: 14px;
             letter-spacing: 2.5px;
         }
@@ -186,7 +186,7 @@
         .subscribe__box {
             text-align: center;
             font-size: 24px;
-            font-family: Lato-Light;
+            font-family: Lato-Light, Verdana, sans-serif;
             text-transform: uppercase;
             position: absolute;
             width: 40vw;
@@ -328,7 +328,7 @@
             color: #696969;
             line-height: 14px;
             text-transform: uppercase;
-            font-family: Lato-Light;
+            font-family: Lato-Light, Verdana, sans-serif;
             font-size: 11px;
             transition: all .5s;
         }
@@ -395,12 +395,12 @@
             justify-content: center;
         }
         .top__title {
-            font-family: Lato-Regular;
+            font-family: Lato-Regular, Verdana, sans-serif;
             text-transform: uppercase;
             font-size: 26px;
         }
         .top__subtitle {
-            font-family: Lato-Regular;
+            font-family: Lato-Regular, Verdana, sans-serif;
             font-size: 26px;
             margin-top: 10px;
         }
@@ -413,7 +413,7 @@
         @media (min-width: 1400px) {
         }
         .program__title {
-            font-family: Lato-Bold;
+            font-family: Lato-Bold, Verdana, sans-serif;
             text-transform: capitalize;
             text-align: center;
             margin-top: 20px;
@@ -421,7 +421,7 @@
         }
         .program__text {
             margin-top: 10px;
-            font-family: Lato-Light;
+            font-family: Lato-Light, Verdana, sans-serif;
             display: inline-block;
             text-align: center;
             font-size: 20px;
@@ -516,7 +516,7 @@
         .agreement__accept {
             line-height: 26px;
             font-size: 18px;
-            font-family: Lato-Light;
+            font-family: Lato-Light, Verdana, sans-serif;
             text-transform: uppercase;
             text-align: center;
             cursor: pointer;
@@ -594,7 +594,7 @@
             color: #000;
         }
         .modal.fade .modal-dialog {
-            transition:         transform .3s ease-out;
+            transition: transform .3s ease-out;
             transform: translate(0, -25%);
         }
         .modal.in .modal-dialog {
