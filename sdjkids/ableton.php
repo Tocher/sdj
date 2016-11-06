@@ -510,7 +510,7 @@
 </head>
 <body>
 <?php include('menu.html'); ?>
-<section class="top">
+<section class="top" style="margin-top:0;">
     <div class="top__container">
         <div class="upper">
             <div class="top__title">

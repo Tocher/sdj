@@ -426,7 +426,7 @@
 </head>
 <body>
 <?php include('menu.html'); ?>
-<section class="program">
+<section class="program" style="padding-top:0;">
     <div class="program__container">
         <div class="program__img"><img src="img/sdj_cricle.png"></div>
         <div class="program__title">SDJMusic Records</div>
