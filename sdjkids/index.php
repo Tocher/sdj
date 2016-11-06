@@ -171,25 +171,25 @@
     <div class="tutorial__title">Карьера</div>
     <div class="tutorial__subtitle">Развитие и профессиональный рост вместе с командой SDJ</div>
     <div class="tutorial__container container">
-        <a href="http://sdjstudio.com/sdjkids/kids.html" class="tutorial__box"><img src="img/job_icon1.png">
+        <a href="http://sdjstudio.com/sdjkids/kids.php" class="tutorial__box"><img src="img/job_icon1.png">
             <div class="tutorial__textmore">
                 <div class="tutorial__textmore-top"><b>Базовый курс - DJ</b><br>Для детей от 7 лет<br>Индивидуально / Группа</div>
             </div>
         </a>
         <div class="tutorial__exam"></div>
-        <a href="http://sdjstudio.com/sdjkids/residents.html" class="tutorial__box"><img src="img/job_icon4.png">
+        <a href="http://sdjstudio.com/sdjkids/residents.php" class="tutorial__box"><img src="img/job_icon4.png">
             <div class="tutorial__textmore">
                 <div class="tutorial__textmore-top"><b>Резидент SDJKIDS</b><br>После сдачи внутреннего<br>экзамена</div>
             </div>
         </a>
         <div class="tutorial__exam" style="opacity: 0;"></div>
-        <a href="http://sdjstudio.com/sdjkids/ableton.html" class="tutorial__box"><img src="img/job_icon3.png">
+        <a href="http://sdjstudio.com/sdjkids/ableton.php" class="tutorial__box"><img src="img/job_icon3.png">
             <div class="tutorial__textmore">
                 <div class="tutorial__textmore-top"><b>Ableton Live</b><br>Для детей от 10 лет<br>Индивидуально / Группа</div>
             </div>
         </a>
         <div class="tutorial__exam"></div>
-        <a href="http://sdjstudio.com/sdjkids/records.html" class="tutorial__box"><img src="img/job_icon2.png">
+        <a href="http://sdjstudio.com/sdjkids/records.php" class="tutorial__box"><img src="img/job_icon2.png">
             <div class="tutorial__textmore">
                 <div class="tutorial__textmore-top"><b>SDJMusic Records</b><br>Артист лейбла</div>
             </div>
@@ -296,13 +296,15 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.0.0/ekko-lightbox.js"></script>
 <script>
-    $('.header a[href^="#"]').on("click", function(e) {
-        e.preventDefault();
-        var s = this.hash,
-                i = $(s);
-        $("html, body").stop().animate({
-            scrollTop: i.offset().top
-        }, 900, "swing")
+    $(document).ready(function() {
+        $('.header a[href^="/sdjkids/#"]').on("click", function(e) {
+            e.preventDefault();
+            var s = this.hash,
+                    i = $(s);
+            $("html, body").stop().animate({
+                scrollTop: i.offset().top
+            }, 900, "swing")
+        });
     });
 
     function moveRight() {
