@@ -511,7 +511,7 @@
             </div>
         </div>
         <div class="tutorial__button-wrap">
-            <a href="http://sdjstudio.com/sdjkids/ableton.html" class="tutorial__button">подробнее о курсе</a>
+            <a href="/sdjkids/ableton.php" class="tutorial__button">подробнее о курсе</a>
         </div>
     </div>
 </section>

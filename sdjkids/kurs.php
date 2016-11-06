@@ -512,7 +512,7 @@
                 </div>
                 <div>
                     - Лучшим предлагаем подготовиться и сдать экзамен<br>
-                    для того, чтобы стать <a href="http://sdjstudio.com/sdjkids/residents.html">Резидентом SDJKids</a>
+                    для того, чтобы стать <a href="/sdjkids/residents.php">Резидентом SDJKids</a>
                 </div>
                 <div>
                     - Лучшие экзаменационные подкасты издаем в ITunes на<br>
@@ -529,7 +529,7 @@
             </div>
         </div>
         <div class="tutorial__button-wrap">
-            <a href="http://sdjstudio.com/sdjkids/kids.html" class="tutorial__button">подробнее о курсе</a>
+            <a href="/sdjkids/kids.php" class="tutorial__button">подробнее о курсе</a>
         </div>
     </div>
 </section>
