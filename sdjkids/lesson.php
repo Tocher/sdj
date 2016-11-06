@@ -68,17 +68,17 @@
         @font-face
         {
             font-family: Lato-Regular;
-            src: url(sdjkids/Lato-Regular.ttf);
+            src: url(Lato-Regular.ttf);
         }
         @font-face
         {
             font-family: Lato-Light;
-            src: url(sdjkids/Lato-Light.ttf);
+            src: url(Lato-Light.ttf);
         }
         @font-face
         {
             font-family: Lato-Bold;
-            src: url(sdjkids/Lato-Bold.ttf);
+            src: url(Lato-Bold.ttf);
         }
         @font-face
         {
