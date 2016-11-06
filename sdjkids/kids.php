@@ -273,7 +273,7 @@
         }
 
         .footer__center {
-            min-width: 850px;
+            min-width: 870px;
         }
 
         @media (min-width: 1600px) {
