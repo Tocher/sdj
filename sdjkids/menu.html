@@ -21,3 +21,103 @@
     <div class="subscribe__box2">
         <div class="subscribe__title">SDJKids<br>Организация выступлений</div><span><b>Юрий Струпинский</b><div class="subscribe__social"><a class="subscribe__mail" href="mailto:sdjkids@mail.ru">SDJKids@mail.ru</a> <a class="subscribe__phone" href="tel:+375296255855">+375296255855</a> <a class="subscribe__vk" href="https://vk.com/djreslee" target="_blank">vk.com/djreslee</a></div></span></div>
 </div>
+<style>
+    .subscribe__modal2 {
+        z-index: 999;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .6)
+    }
+    .subscribe__box2 {
+        text-align: center;
+        font-size: 24px;
+        font-family: Lato-Light;
+        text-transform: uppercase;
+        position: absolute;
+        width: 40vw;
+        height: 30vw;
+        margin-left: -20vw;
+        left: 50%;
+        top: 50%;
+        background: #000;
+        color: #fff;
+        padding: 20px
+    }
+    .subscribe__title {
+        margin-top: 30px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #fff;
+        font-size: 22px;
+        font-family: Lato-Bold;
+        display: inline-block
+    }
+    .subscribe__box2 a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px
+    }
+    .subscribe__box2 a:hover {
+        text-decoration: underline
+    }
+    .subscribe__box2 span {
+        display: block;
+        font-size: 20px;
+        text-transform: lowercase;
+        line-height: 24px
+    }
+    .subscribe__box2 span b {
+        text-transform: capitalize;
+        font-size: 22px;
+        margin: 30px 0;
+        display: block
+    }
+    .subscribe__mail,
+    .subscribe__phone,
+    .subscribe__vk {
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding: 5px 30px;
+        display: block;
+        background-size: 18px
+    }
+    .subscribe__social {
+        text-align: left;
+        width: 160px;
+        margin-left: -80px;
+        position: absolute;
+        left: 50%
+    }
+    .subscribe__vk {
+        background-image: url(img/subs_vk.png)
+    }
+    .subscribe__phone {
+        background-image: url(img/subs_phone.png)
+    }
+    .subscribe__mail {
+        background-image: url(img/subs_mail.png)
+    }
+    @media (min-width: 1600px) {
+        .subscribe__mail,
+        .subscribe__phone,
+        .subscribe__vk {
+            background-size: 24px
+        }
+        .subscribe__box2 span {
+            font-size: 26px;
+            line-height: 30px
+        }
+        .subscribe__box2 span b {
+            font-size: 28px;
+            margin: 50px 0
+        }
+        .subscribe__title {
+            font-size: 28px
+        }
+    }
+</style>
