@@ -424,7 +424,7 @@
 </head>
 <body>
 <?php include('menu.html'); ?>
-<section class="top" style="margin-top:20px;">
+<section class="top">
     <div class="top__container">
         <div class="upper">
             <div class="top__title">Резидент SDJKids</div>

@@ -455,7 +455,7 @@
 </head>
 <body>
     <?php include('menu.html'); ?>
-    <section class="program" style="margin-top:20px;">
+    <section class="program">
         <div class="program__container">
             <div class="upper">
                 <div class="top__title">Базовый курс - DJ</div>
