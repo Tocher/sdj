@@ -18,19 +18,19 @@ a {
     cursor: pointer
 }
 @font-face {
-    font-family: Lato-Regular, Verdana, sans-serif;
+    font-family: Lato-Regular;
     src: url(Lato-Regular.ttf)
 }
 @font-face {
-    font-family: Lato-Light, Verdana, sans-serif;
+    font-family: Lato-Light;
     src: url(Lato-Light.ttf)
 }
 @font-face {
-    font-family: Lato-Bold, Verdana, sans-serif;
+    font-family: Lato-Bold;
     src: url(Lato-Bold.ttf)
 }
 @font-face {
-    font-family: BebasNeueCyrillic, Verdana, sans-serif;
+    font-family: BebasNeueCyrillic;
     src: url(BebasNeueCyrillic.ttf)
 }
 .events,

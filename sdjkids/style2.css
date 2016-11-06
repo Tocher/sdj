@@ -18,19 +18,19 @@ a {
     cursor: pointer
 }
 @font-face {
-    font-family: Lato-Regular, Verdana, sans-serif;
+    font-family: Lato-Regular;
     src: url(Lato-Regular.ttf)
 }
 @font-face {
-    font-family: Lato-Light, Verdana, sans-serif;
+    font-family: Lato-Light;
     src: url(Lato-Light.ttf)
 }
 @font-face {
-    font-family: Lato-Bold, Verdana, sans-serif;
+    font-family: Lato-Bold;
     src: url(Lato-Bold.ttf)
 }
 @font-face {
-    font-family: BebasNeueCyrillic, Verdana, sans-serif;
+    font-family: BebasNeueCyrillic;
     src: url(BebasNeueCyrillic.ttf)
 }
 .events,
@@ -1480,10 +1480,13 @@ a {
     .footer__right {
         font-size: 12px
     }
+    .footer__center a {
+        font-size: 12px;
+    }
 }
 .footer__center a {
     margin: 0 18px;
-    font-size: 12px;
+    font-size: 10px;
     transition: all .5s;
     position: relative;
     color: #fff
