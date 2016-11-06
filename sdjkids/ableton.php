@@ -536,7 +536,7 @@
             </div>
             <div class="program__text" style="margin-left:40px;">
                 Групповое обучение:<br>
-                <span>3 этапа по 10 тренингов по 120 минут<br>
+                <span>3 этапа по 10 уроков по 120 минут<br>
                 Стоимость одного этапа - 400 рублей</span>
             </div>
             <div class="program__title">Программа</div>
