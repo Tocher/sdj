@@ -2,7 +2,7 @@
 <section class="top">
     <div class="top__container">
         <div class="top__title">Артек</div>
-        <div class="top__subtitle">30/10/12</div>
+        <div class="top__subtitle">06/12</div>
         <?php
             $gallery = '10';
 

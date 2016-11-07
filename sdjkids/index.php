@@ -71,7 +71,7 @@
                 </a>
                 <a href="gallery10.php" class="events__item events__img_item eitem10">
                     Артек
-                    <div class="events__item-date">30/10/12</div>
+                    <div class="events__item-date">06/12</div>
                 </a>
             </div>
         </div>
