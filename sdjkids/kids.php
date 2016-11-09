@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>SDJKids</title>
+    <link rel="stylesheet" href="general.css">
     <!-- for Google -->
     <meta name="description" content="SDJKids Базовый курс" />
     <meta name="keywords" content="" />

@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kids</title>
+    <title>Резидент</title>
+    <link rel="stylesheet" href="general.css">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function (d, w, c) {

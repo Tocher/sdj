@@ -1,0 +1,42 @@
+.lato-bold {
+    font-family: Lato-Bold, Verdana, sans-serif;
+}
+
+.footer.static {
+    position: static;
+}
+.footer__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 50px 50px 0;
+}
+
+.footer__bottom-column {
+    list-style: none;
+    font-size: 18px;
+}
+
+.footer__bottom-column .first {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.footer__bottom-column li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.footer__bottom-column a {
+    color: #666;
+    text-decoration: none;
+    transition: all .5s;
+    display: block;
+}
+
+.footer__bottom-column li:hover a {
+    color: #fff;
+}

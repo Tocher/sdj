@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SDJKids</title>
+    <title>SDJMusic Records</title>
+    <link rel="stylesheet" href="general.css">
     <!-- for Google -->
     <meta name="description" content="SDJMUSIC RECORDS" />
     <meta name="keywords" content="" />

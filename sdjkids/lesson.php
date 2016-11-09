@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>kids</title>
+    <link rel="stylesheet" href="general.css">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function (d, w, c) {

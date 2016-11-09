@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link type="text/css" rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="general.css">
     <!-- for Google -->
     <meta name="description" content="SDJKids Школа диджеев / Детский музыкальный проект" />
     <meta name="keywords" content="" />
