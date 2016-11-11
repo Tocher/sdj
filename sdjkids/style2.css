@@ -1095,7 +1095,6 @@ a {
     }
 }
 .team {
-    height: 100vh;
     position: relative;
     padding: 100px 0;
     overflow: hidden;
@@ -1314,7 +1313,7 @@ a {
     text-align: center;
     padding-top: 100px;
     position: relative;
-    height: 100vh
+    padding-bottom: 50px;
 }
 @media screen and (min-width: 1800px) {
     .tutorial {
@@ -1575,7 +1574,7 @@ a {
     top: 0
 }
 .partners {
-    height: 100vh;
+    padding-bottom: 50px;
     padding-top: 120px;
     position: relative;
     color: #000;
