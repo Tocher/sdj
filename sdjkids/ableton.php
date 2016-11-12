@@ -515,8 +515,9 @@
     <div class="top__container">
         <div class="upper">
             <div class="top__title">
-                Ableton Live<br>
-                готовим профессиональных саунд-продюсеров<br>курс создания электронной музыки с Ableton live
+                КУРС "СОЗДАНИЕ МУЗЫКИ В ABLETON LIVE"<br>
+                Для тех, кто хочет научиться создавать электронную<br>
+                музыку в домашних условиях в любом жанре
             </div>
         </div>
         <div class="top__text">
