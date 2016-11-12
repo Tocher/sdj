@@ -33,6 +33,10 @@
         <div class="events__arrow events__arrow-right"></div>
         <div class="events__items-layout">
             <div class="events__items">
+                <a href="gallery11.php" class="events__item events__img_item eitem11">
+                    <div>Первое командное занятие по диджеингу</div>
+                    <div class="events__item-date">12/11/16</div>
+                </a>
                 <a href="gallery1.php" class="events__item events__img_item eitem4">
                     <div>Аргумент</div>
                     <div class="events__item-date">26/10/16</div>
