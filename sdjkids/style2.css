@@ -617,22 +617,22 @@ a {
 }
 
 .eitem1 {
-    background-image: url('img/gallery/3.jpg');
+    background-image: url('img/gallery/1.jpg');
 }
 .eitem2 {
-    background-image: url('img/gallery/5.jpg');
-}
-.eitem3 {
     background-image: url('img/gallery/2.jpg');
 }
+.eitem3 {
+    background-image: url('img/gallery/3.jpg');
+}
 .eitem4 {
-    background-image: url('img/gallery/1.jpg');
+    background-image: url('img/gallery/4.jpg');
+}
+.eitem5 {
+    background-image: url('img/gallery/5.jpg');
 }
 .eitem6 {
     background-image: url('img/gallery/6.jpg');
-}
-.eitem5 {
-    background-image: url('img/gallery/4.jpg');
 }
 
 .eitem7 {
