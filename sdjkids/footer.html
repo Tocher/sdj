@@ -86,34 +86,34 @@
         var tutorialModal = new Modal({
                     el: document.getElementById("agreement")
                 }),
-                dialog = $(".modal-dialog");
+                dialog = $("#agreement .modal-dialog");
         $(".tutorial__button-main, .footer_application").click(function(el) {
             el.preventDefault();
 
             tutorialModal.show();
             var e = (window.innerHeight - dialog.height()) / 2;
             dialog.css("margin-top", e + "px");
-            var i = $(".form");
-            i.css("margin-top", ($(".modal-tab-2").height() - i.height()) / 2 + "px")
+            var i = $("#agreement .form");
+            i.css("margin-top", ($("#agreement .modal-tab-2").height() - i.height()) / 2 + "px")
         });
 
-        $(".close").click(function() {
+        $("#agreement .close").click(function() {
             tutorialModal.hide()
         });
 
         var accept = !1,
-                modalTabs = $(".modal-tabs");
-        $(".agreement__accept-box").change(function() {
-            accept = !accept, $(".modal-tab-2").css("margin-left", accept ? "0" : "100%"), $(".modal-tab-1").css("margin-left", accept ? "-100%" : "0"), $(".modal-title").animate({
+                modalTabs = $("#agreement .modal-tabs");
+        $("#agreement .agreement__accept-box").change(function() {
+            accept = !accept, $("#agreement .modal-tab-2").css("margin-left", accept ? "0" : "100%"), $("#agreement .modal-tab-1").css("margin-left", accept ? "-100%" : "0"), $("#agreement .modal-title").animate({
                 opacity: 0
             }, "slow", function() {
-                $(".modal-title").html(accept ? "Заявка на участие в SDJKids" : "Публичный договор на обучение в школе диджеев SDJKids"), $(".modal-title").animate({
+                $("#agreement .modal-title").html(accept ? "Заявка на участие в SDJKids" : "Публичный договор на обучение в школе диджеев SDJKids"), $("#agreement .modal-title").animate({
                     opacity: 1
                 }, "fast")
             })
-        }), $(".form-group").change(function() {
+        }), $("#agreement .form-group").change(function() {
             $(this).isValid()
-        }), $(".agreement__send").click(function(e) {
+        }), $("#agreement .agreement__send").click(function(e) {
             e.preventDefault();
             var i = $(".form");
             if (i.isValid()) {
