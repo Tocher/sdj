@@ -1483,7 +1483,7 @@ a {
     width: 100%;
     margin-top: calc(3vh + 50px);
 }
-.tutorial__button {
+.tutorial__button, .tutorial__button-main {
     display: inline-block;
     border: 1px solid #fff;
     padding: 8px 30px;
@@ -1494,7 +1494,7 @@ a {
     font-size: 16px;
     font-family: Lato-Light, Verdana, sans-serif;
 }
-.tutorial__button:hover {
+.tutorial__button:hover, .tutorial__button-main:hover {
     background: #fff;
     color: #000
 }
