@@ -402,14 +402,9 @@
             align-content: center;
             justify-content: center;
         }
-        .top__title span {
+        .top__title {
             font-family: Lato-Regular;
             text-transform: uppercase;
-            margin: 5px 0;
-            display: block;
-        }
-        .top__title {
-            font-family: Lato-Light;
             font-size: 26px;
         }
         .top__text {
@@ -520,7 +515,7 @@
     <div class="top__container">
         <div class="upper">
             <div class="top__title">
-                <span>КУРС "СОЗДАНИЕ МУЗЫКИ В ABLETON LIVE"</span>
+                КУРС "СОЗДАНИЕ МУЗЫКИ В ABLETON LIVE"<br>
                 Для тех, кто хочет научиться создавать электронную<br>
                 музыку в домашних условиях в любом жанре
             </div>
