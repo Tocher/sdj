@@ -178,7 +178,7 @@
 .modal-open {
     overflow: hidden
 }
-#agreement.modal {
+.agreement.modal {
     position: fixed;
     top: 0;
     right: 0;
@@ -207,13 +207,13 @@
     overflow-x: hidden;
     overflow-y: auto
 }
-#agreement .modal-dialog {
+.agreement .modal-dialog {
     position: relative;
     width: auto;
     margin: 10px;
     min-width: 750px !important;
 }
-#agreement .modal-content {
+.agreement .modal-content {
     position: relative;
     background-clip: padding-box;
     border: 1px solid #999;
@@ -240,13 +240,13 @@
     filter: alpha(opacity=50);
     opacity: .5
 }
-#agreement .modal-header {
+.agreement .modal-header {
     padding: 35px 15px 15px;
     background: #fff;
     color: #000;
     text-align: center
 }
-#agreement .modal-header .close {
+.agreement .modal-header .close {
     margin-top: -15px;
     float: right;
     font-size: 42px;
@@ -266,7 +266,7 @@
 .modal-header .close:hover {
     opacity: 1
 }
-#agreement .modal-title {
+.agreement .modal-title {
     margin: 0;
     line-height: 1.42857143;
     text-align: center;
@@ -274,11 +274,11 @@
     padding: 0 15px 10px;
     border-bottom: 1px solid #333
 }
-#agreement .modal-body-top {
+.agreement .modal-body-top {
     height: 100%;
     overflow: hidden
 }
-#agreement .modal-body {
+.agreement .modal-body {
     position: relative;
     padding: 15px 0;
     background: #fff;
@@ -287,50 +287,50 @@
     overflow-y: scroll;
     overflow-x: hidden
 }
-#agreement .modal-tabs {
+.agreement .modal-tabs {
     width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
     height: 100%
 }
-#agreement .modal-tab-1,
-#agreement .modal-tab-2 {
+.agreement .modal-tab-1,
+.agreement .modal-tab-2 {
     transition: all .5s;
     width: 100%;
     display: inline-block;
     vertical-align: top;
     padding: 0 6vw
 }
-#agreement .modal-tab-2 {
+.agreement .modal-tab-2 {
     height: 100%;
     position: absolute;
     top: 0;
     margin-left: 100%
 }
-#agreement .modal-tab-2 .form {
+.agreement .modal-tab-2 .form {
     margin-top: 0 !important;
 }
-#agreement .modal-footer {
+.agreement .modal-footer {
     display: none
 }
-#agreement .modal-footer,
-#agreement .modal-footer2 {
+.agreement .modal-footer,
+.agreement .modal-footer2 {
     padding: 15px 15px 35px;
     background: #fff;
     color: #000;
     text-align: center
 }
-#agreement .modal-footer .btn+.btn {
+.agreement .modal-footer .btn+.btn {
     margin-bottom: 0;
     margin-left: 5px
 }
-#agreement .modal-footer .btn-group .btn+.btn {
+.agreement .modal-footer .btn-group .btn+.btn {
     margin-left: -1px
 }
-#agreement .modal-footer .btn-block+.btn-block {
+.agreement .modal-footer .btn-block+.btn-block {
     margin-left: 0
 }
-#agreement .modal-scrollbar-measure {
+.agreement .modal-scrollbar-measure {
     position: absolute;
     top: -9999px;
     width: 50px;
@@ -338,15 +338,15 @@
     overflow: scroll
 }
 @media (min-width: 768px) {
-    #agreement .modal-dialog {
+    .agreement .modal-dialog {
         width: 900px;
         min-width: 600px;
         margin: 30px auto
     }
-    #agreement .modal-content {
+    .agreement .modal-content {
         box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
     }
-    #agreement .modal-sm {
+    .agreement .modal-sm {
         width: 300px
     }
 }
