@@ -396,6 +396,27 @@ a {
     position: relative;
     /*overflow: hidden;*/
 }
+.events__button-wrap {
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
+.events__button {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    transition: all .5s;
+    cursor: pointer;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: Lato-Light, Verdana, sans-serif;
+    color: #fff;
+}
+.events__button:hover {
+    background: #fff;
+    color: #000
+}
 .ekko-lightbox .modal-header,
 .ekko-lightbox .modal-body {
     background: #000;
@@ -596,22 +617,22 @@ a {
 }
 
 .eitem1 {
-    background-image: url('img/gallery/3/16.jpg');
+    background-image: url('img/gallery/3.jpg');
 }
 .eitem2 {
-    background-image: url('img/gallery/image2.jpg');
+    background-image: url('img/gallery/5.jpg');
 }
 .eitem3 {
-    background-image: url('img/gallery/2/1.jpg');
+    background-image: url('img/gallery/2.jpg');
 }
 .eitem4 {
-    background-image: url('img/gallery/1/8.jpg');
+    background-image: url('img/gallery/1.jpg');
 }
 .eitem6 {
-    background-image: url('img/gallery/6/1.jpg');
+    background-image: url('img/gallery/6.jpg');
 }
 .eitem5 {
-    background-image: url('img/gallery/4/29.jpg');
+    background-image: url('img/gallery/4.jpg');
 }
 
 .eitem7 {

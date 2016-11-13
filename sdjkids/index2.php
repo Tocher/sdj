@@ -80,6 +80,9 @@
             </div>
         </div>
     </div>
+    <div class="events__button-wrap">
+        <a href="/sdjkids/gallery_all.php" class="events__button">Показать ещё</a>
+    </div>
     <div class="events__title" id="events">TV Видео</div>
     <div class="events__items-container">
         <div class="events__arrow events__arrow-left"></div>
@@ -200,7 +203,7 @@
         </a>
     </div>
     <div class="tutorial__button-wrap">
-        <div class="tutorial__button-main">отправить заявку</div>
+        <div class="tutorial__button">отправить заявку</div>
     </div>
 </div>
 <div class="partners" id="contacts">
