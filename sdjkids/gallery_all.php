@@ -25,7 +25,7 @@
 
                 $item = $data[$i-1];
 
-                echo '<a href="sdjkids/gallery_'.$item[0].'.php" class="events__item events__img_item eitem'.$item[0].' gallery__item">
+                echo '<a href="/sdjkids/gallery_'.$item[0].'.php" class="events__item events__img_item eitem'.$item[0].' gallery__item">
                         <div>'.$item[1].'</div>
                         <div class="events__item-date">'.$item[2].'</div>
                     </a>';
