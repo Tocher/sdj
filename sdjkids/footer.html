@@ -95,9 +95,12 @@
             dialog.css("margin-top", e + "px");
             var i = $(".form");
             i.css("margin-top", ($(".modal-tab-2").height() - i.height()) / 2 + "px")
-        }), $(".close").click(function() {
+        });
+
+        $(".close").click(function() {
             tutorialModal.hide()
         });
+
         var accept = !1,
                 modalTabs = $(".modal-tabs");
         $(".agreement__accept-box").change(function() {
@@ -177,7 +180,6 @@
         window.open('http://www.facebook.com/sharer.php?s=100&p[title]=' + title + '&p[summary]=' + descr + '&p[url]=' + url + '&p[images][0]=' + image, 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width='+winWidth+',height='+winHeight);
     }
 </script>
-
 
 <div id="agreement" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog">
