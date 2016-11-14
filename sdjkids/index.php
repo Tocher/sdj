@@ -34,7 +34,7 @@
         <div class="events__items-layout">
             <div class="events__items">
                 <a href="gallery11.php" class="events__item events__img_item eitem11">
-                    <div>Первое командное занятие по диджеингу</div>
+                    <div>Первый командный урок</div>
                     <div class="events__item-date">12/11/16</div>
                 </a>
                 <a href="gallery1.php" class="events__item events__img_item eitem1">
@@ -79,6 +79,9 @@
                 </a>
             </div>
         </div>
+    </div>
+    <div class="events__button-wrap">
+        <a href="/sdjkids/gallery_all.php" class="events__button">Показать ещё</a>
     </div>
     <div class="events__title" id="events">TV Видео</div>
     <div class="events__items-container">

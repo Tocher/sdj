@@ -1,7 +1,7 @@
 <?php include('head.php'); ?>
 <section class="top">
     <div class="top__container">
-        <div class="top__title">Первое командное занятие по диджеингу</div>
+        <div class="top__title">Первый командный урок</div>
         <div class="top__subtitle">12/11/16</div>
         <?php
             $gallery = '11';

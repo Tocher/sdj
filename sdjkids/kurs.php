@@ -516,8 +516,8 @@
                     для того, чтобы стать <a href="/sdjkids/residents.php">Резидентом SDJKids</a>
                 </div>
                 <div>
-                    - Лучшие экзаменационные подкасты издаем в ITunes на<br>
-                    SDJMusic Records
+                    - Лучшие экзаменационные подкасты издаем в <a href="https://itunes.apple.com/ru/podcast/sdjmusic/id1036870005?mt=2">ITunes на<br>
+                    SDJMusic Records</a>
                 </div>
 
                 <div class="program__text-title">Условия обучения:</div>
