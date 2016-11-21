@@ -28,6 +28,11 @@
     <meta name="twitter:title" content="SDJKids" />
     <meta name="twitter:description" content="Школа диджеев / Детский музыкальный проект" />
     <meta name="twitter:image" content="http://sdjstudio.com/sdjkids/img/main.jpg" />
+    <!--<script type="text/javascript">-->
+        <!--if (screen.width <= 800) {-->
+            <!--window.location = "http://sdjstudio.com/m/sdjkids/";-->
+        <!--}-->
+    <!--</script>-->
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function (d, w, c) {

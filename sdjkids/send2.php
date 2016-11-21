@@ -13,7 +13,8 @@ if(isset($_POST['name'])) {
     $email_message .= "Соц. сети: ".$_POST['social']."<br>\n";
     $email_message .= "Email: ".$_POST['email']."<br>\n";
     $email_message .= "Из каких источников узнали о нашем проекте?: ".$_POST['know']."<br>\n";
-    $email_message .= "Почему пробуете себя в диджеинге?: ".$_POST['about']."<br>\n";
+    $email_message .= "Почему пробуете себя в диджеинге?: ".$_POST['about']."<br>\n\n";
+    $email_message .= "Промо код: ".$_POST['promo']."<br>\n";
 
 	$headers = 'From: sdjkids <info@sdjstudio.com>'."\r\n".
 		"Content-type: text/html; charset=utf-8 \r\n".

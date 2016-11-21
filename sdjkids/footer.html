@@ -129,13 +129,17 @@
                     service3: i.find("#service3").prop("checked") ? "Да" : "Нет",
                     service4: i.find("#service4").prop("checked") ? "Да" : "Нет",
                     service5: i.find("#service5").prop("checked") ? "Да" : "Нет",
-                    service6: i.find("#service6").prop("checked") ? "Да" : "Нет"
+                    service6: i.find("#service6").prop("checked") ? "Да" : "Нет",
+                    promo: i.find("#f-promo").val()
                 };
                 $.ajax({
                     method: "POST",
                     url: "send.php",
                     data: r
-                }), tutorialModal.hide()
+                }).done(function() {
+                    tutorialModal.hide();
+                    window.location = "http://sdjstudio.com/sdjkids/thanks.php";
+                });
             }
         });
 
@@ -210,6 +214,9 @@
                                 </div>
                                 <div class="form-group row"><label for="f-about" class="col-xs-2 col-form-label">Почему пробуете себя в диджеинге?</label>
                                     <div class="col-xs-10"><input class="form-control" data-validation="required" type="text" id="f-about"></div>
+                                </div>
+                                <div class="form-group row"><label for="f-promo" class="col-xs-2 col-form-label">Промо код:</label>
+                                    <div class="col-xs-10"><input class="form-control" type="text" id="f-promo"></div>
                                 </div>
                                 <div class="form-group row form-service">
                                     <div class="agreement__accept-mini"><input class="agreement__accept-box-mini" type="checkbox" name="service1" id="service1"> <label for="service1"><div class="agreement__box-mini"></div>Базовый курс</label></div>

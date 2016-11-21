@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>kids</title>
+    <title>Спасибо</title>
     <link rel="stylesheet" href="general.css">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
@@ -222,6 +222,9 @@
             color: #000;
         }
 
+        .footer__bottom {
+            display: none;
+        }
         .footer {
             height: 80px;
             line-height: 80px;
@@ -387,6 +390,7 @@
             margin-bottom: 80px;
         }
         .top__container {
+            min-height: calc(100vh - 180px);
             width: 100%;
             text-align: center;
             display: flex;
@@ -772,25 +776,8 @@
 <section class="top">
     <div class="top__container">
         <div class="upper">
-            <div class="top__title">Бесплатный урок</div>
-        </div>
-        <div>
-            <img src="img/lessons_bg.jpg" style="max-width:100%;">
-        </div>
-        <div class="lower">
-            <div class="program__title">Программа</div>
-            <div class="program__text">
-                Кто такие диджеи сегодня?<br>
-                От дивана до танцпола, от мечты к цели<br>
-                О проекте SDJKids<br>
-                Обзор оборудования<br>
-                Проверка чувства ритма<br>
-                Сведи свои треки сам<br>
-                Селфи на память
-            </div>
-        </div>
-        <div class="tutorial__button-wrap">
-            <div class="tutorial__button tutorial__button-lesson">отправить заявку</div>
+            <div class="top__title">Спасибо за заявку</div>
+            <span style="color: #999;margin-top:10px;">Мы свяжемся с вами в ближайшее время.</span>
         </div>
     </div>
 </section>
@@ -846,12 +833,6 @@
                                     <label for="f-about" class="col-xs-2 col-form-label">Для чего Вам нужен бесплатный урок?</label>
                                     <div class="col-xs-10">
                                         <input class="form-control" data-validation="required" type="text" id="f-about">
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="f-promo" class="col-xs-2 col-form-label">Промо код:</label>
-                                    <div class="col-xs-10">
-                                        <input class="form-control" type="text" id="f-promo">
                                     </div>
                                 </div>
                                 <button type="submit" class="agreement__send btn btn-primary">Отправить</button>
@@ -921,16 +902,13 @@
             social: form.find('#f-social').val(),
             know: form.find('#f-know').val(),
             about: form.find('#f-about').val(),
-            email: form.find('#f-email').val(),
-            promo: i.find("#f-promo").val()
+            email: form.find('#f-email').val()
         };
 
         $.ajax({
             method: 'POST',
             url: 'send2.php',
             data: data
-        }).done(function() {
-            window.location = "http://sdjstudio.com/sdjkids/thanks.php";
         });
 
         tutorialModal.hide();

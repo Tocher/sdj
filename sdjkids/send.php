@@ -18,7 +18,8 @@ if(isset($_POST['name'])) {
     $email_message .= "SDJKids: ".$_POST['service2']."<br>\n";
     $email_message .= "Ableton Live: ".$_POST['service3']."<br>\n";
     $email_message .= "Индивидуальный: ".$_POST['service4']."<br>\n";
-    $email_message .= "Групповой: ".$_POST['service5']."<br>\n";
+    $email_message .= "Групповой: ".$_POST['service5']."<br>\n\n";
+    $email_message .= "Промо код: ".$_POST['promo']."<br>\n";
 
 	$headers = 'From: sdjkids'."\r\n".
 		"Content-type: text/html; charset=utf-8 \r\n".
