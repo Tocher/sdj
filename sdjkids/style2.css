@@ -650,6 +650,12 @@ a {
 .eitem11 {
     background-image: url('img/gallery/11.jpg');
 }
+.eitem12 {
+    background-image: url('img/gallery/12/mini-20.jpg');
+}
+.eitem13 {
+    background-image: url('img/gallery/13/mini-6.jpg');
+}
 
 .evitem1 {
     background-image: url('img/gallery/image_video1.jpg');

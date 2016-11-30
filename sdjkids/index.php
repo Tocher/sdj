@@ -33,6 +33,10 @@
         <div class="events__arrow events__arrow-right"></div>
         <div class="events__items-layout">
             <div class="events__items">
+                <a href="gallery13.php" class="events__item events__img_item eitem13">
+                    Кирилов и Фомин Dozari
+                    <div class="events__item-date">26/11/16</div>
+                </a>
                 <a href="gallery11.php" class="events__item events__img_item eitem11">
                     <div>Первый командный урок</div>
                     <div class="events__item-date">12/11/16</div>
@@ -60,6 +64,10 @@
                 <a href="gallery5.php" class="events__item events__img_item eitem5">
                     Артек
                     <div class="events__item-date">23/06/13</div>
+                </a>
+                <a href="gallery12.php" class="events__item events__img_item eitem12">
+                    Имиджевая ф-с
+                    <div class="events__item-date">12/12</div>
                 </a>
                 <a href="gallery8.php" class="events__item events__img_item eitem8">
                     Турнир по боулингу
