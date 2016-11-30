@@ -33,10 +33,10 @@
         <div class="events__arrow events__arrow-right"></div>
         <div class="events__items-layout">
             <div class="events__items">
-                <a href="gallery13.php" class="events__item events__img_item eitem13">
-                    Кирилов и Фомин Dozari
-                    <div class="events__item-date">26/11/16</div>
-                </a>
+                <!--<a href="gallery13.php" class="events__item events__img_item eitem13">-->
+                    <!--Кирилов и Фомин Dozari-->
+                    <!--<div class="events__item-date">26/11/16</div>-->
+                <!--</a>-->
                 <a href="gallery11.php" class="events__item events__img_item eitem11">
                     <div>Первый командный урок</div>
                     <div class="events__item-date">12/11/16</div>
